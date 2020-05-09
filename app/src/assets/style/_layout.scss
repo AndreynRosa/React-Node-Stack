@@ -1,0 +1,47 @@
+// General htmlTags
+h1,
+h2 {
+  text-align: center;
+}
+body {
+  background-color: #f1f6fb;
+
+  background-size: cover;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+.pushCenter {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pushCenterRow {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.divTextImg{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #F1F6FB;
+    opacity: 0.7;
+    width: 83%;
+    padding: 0;
+    margin-top: 70%;
+
+}
+.btnPagination {
+  margin-left: 3px;
+}
+.btnView {
+  padding: 10px;
+  left: 10px;
+}
